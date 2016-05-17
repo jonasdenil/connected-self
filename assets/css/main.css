@@ -1,5 +1,16 @@
 @import url(font-awesome.min.css);
 
+@font-face {
+    font-family: Hanken;
+    src: url(../fonts/HankenSans-Regular.otf);
+    font-weight: regular;
+}
+@font-face {
+    font-family: Hanken;
+    src: url(../fonts/HankenSans-Light.otf);
+    font-weight: light;
+}
+
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @n33co
@@ -1640,10 +1651,11 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Hanken, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
+		letter-spacing: 0.08em;
 	}
 
 		@media screen and (max-width: 1680px) {
