@@ -23,7 +23,7 @@ var margin = {top: 10, right: 140, bottom: 10, left: -400},
 
 var cluster = d3.layout.cluster()
     .size([height, width])
-    .sort(function(a, b) { return d3.ascending(a.name, b.name); })
+    .sort(function(a, b) { return d3.ascending(a.imports, b.imports); })
     .value(function(d) { return d.size; });
 
 var bundle = d3.layout.bundle();
