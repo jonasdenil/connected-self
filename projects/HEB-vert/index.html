@@ -2,14 +2,30 @@
 <meta charset="utf-8">
 <style>
 
+body {
+  background-color: #FFE3CB;
+}
+
 .node {
-  font: 10px sans-serif;
+  font: 10px Hanken, sans-serif;
+  font-weight: light;
 }
 
 .link {
-  stroke: steelblue;
+  stroke: #23A7F8;
   stroke-opacity: .4;
   fill: none;
+}
+
+@font-face {
+    font-family: Hanken;
+    src: url(font/HankenSans-Regular.otf);
+    font-weight: regular;
+}
+@font-face {
+    font-family: Hanken;
+    src: url(font/HankenSans-Light.otf);
+    font-weight: light;
 }
 
 </style>
@@ -18,8 +34,8 @@
 <script>
 
 var margin = {top: 10, right: 140, bottom: 10, left: -400},
-    width = 2000 - margin.left - margin.right,
-    height = 8000 - margin.top - margin.bottom;
+    width = 1800 - margin.left - margin.right,
+    height = 9000 - margin.top - margin.bottom;
 
 var cluster = d3.layout.cluster()
     .size([height, width])

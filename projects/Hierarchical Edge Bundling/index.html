@@ -3,12 +3,12 @@
 <style>
 
 body {
-  background-color: #fff;
+  background-color: #04171F;
 }
 
 .node {
-  font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  fill: black;
+  font: 10px Hanken, sans-serif;
+  font-weight: light;
 }
 
 .node:hover {
@@ -16,9 +16,9 @@ body {
 }
 
 .link {
-  stroke: black;
+  stroke: #236030;
   stroke-opacity: .4;
-  stroke-width: .5px;
+  stroke-width: 1.5px;
   fill: none;
   pointer-events: none;
 }
@@ -27,28 +27,45 @@ body {
 .node--source,
 .node--target {
   font-weight: 700;
+  fill: #fff;
 }
 
 .node--source {
-  fill: #2ca02c;
+  fill: #9471FF;
 }
 
+/* Typo van target link */
 .node--target {
-  fill: #FC5B5B;
+  fill: #9471FF;
 }
 
 .link--source,
 .link--target {
   stroke-opacity: 1;
-  stroke-width: .5px;
+  stroke-width: 3px;
 }
 
 .link--source {
-  stroke: #d62728;
+  stroke: #9471FF;
 }
 
 .link--target {
-  stroke: #2ca02c;
+  stroke: #9471FF;
+}
+
+text {
+  fill: #566063;
+}
+
+@font-face {
+    font-family: Hanken;
+    src: url(font/HankenSans-Regular.otf);
+    font-weight: regular;
+}
+@font-face {
+    font-family: Hanken;
+    src: url(font/HankenSans-Light.otf);
+    font-weight: light;
 }
 
 </style>
