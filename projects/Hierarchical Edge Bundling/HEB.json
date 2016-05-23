@@ -22,6 +22,7 @@
 		"og.EyeEm",
 		"og.Facebook",
 		"og.Fancy",
+		"og.Fitbit",
 		"og.Fnac",
 		"og.Google",
 		"og.Groupon",
@@ -1116,7 +1117,28 @@
 		"og.Ebay",
 		"og.Evernote",
 		"og.EyeEm",
-		"og.Facebook"
+		"og.Facebook",
+		"og.Fitbit",
+		"og.Google",
+		"og.Instagram",
+		"og.Kapaza",
+		"og.Microsoft",
+		"og.Mini In The Box", 
+		"og.Mobile Vikings",
+		"og.Netflix",
+		"og.PayPal",
+		"og.Shazam",
+		"og.Snapchat",
+		"og.Soundcloud",
+		"og.Spotify",
+		"og.Tumblr",
+		"og.Tweedehands",
+		"og.Twitter",
+		"og.Whatsapp",
+		"og.Wunderlist",
+		"og.Zalando",
+		"og.IFTTT"
+		
 
 
 	]},
@@ -1899,6 +1921,7 @@
 	{"name": "og.EyeEm"},
 	{"name": "og.Facebook"},
 	{"name": "og.Fancy"},
+	{"name": "og.Fitbit"},
 	{"name": "og.Fnac"},
 	{"name": "og.Google", "imports": [
 			"ggl.Google Adsense",

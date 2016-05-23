@@ -1,10 +1,16 @@
 {
 	"name": "e-mailaddress",
 	"children": [
-	{"name": "Adobe"},
+	{"name": "Adobe", "children": [
+
+	]},
 	{"name": "Airbnb"},
 	{"name": "AliExpress"},
-	{"name": "Amazon"},
+	{"name": "Amazon", "children": [
+			{"name": "Amazon.com"},
+			{"name": "Amazon.co.uk"},
+			{"name": "Amazon.de"}
+	]},
 
 	{
 		"name": "Apple",
@@ -800,7 +806,15 @@
 	{"name": "Ello"},
 	{"name": "Evernote"},
 	{"name": "EyeEm"},
-	{"name": "Facebook"},
+	{"name": "Facebook", "children": [
+			{"name": "Facebook"},
+			{"name": "Instagram"},
+			{"name": "Messenger"},
+			{"name": "Whatsapp"}
+
+	]},
+
+
 	{"name": "Fancy"},
 	{"name": "Fnac"},
 
@@ -1056,11 +1070,14 @@
 	{"name": "Het Laatste Nieuws"},
 	{"name": "iBood"},
 	{"name": "IFTTT"},
-	{"name": "Instagram"},
 	{"name": "Kapaza"},
 	{"name": "LinkedIn"},
 	{"name": "Medium"},
-	{"name": "Microsoft"},
+	{"name": "Microsoft", "children": [
+		{"name": "Microsoft Office"},
+		{"name": "Hotmail"}
+	]},
+
 	{"name": "Mini In The Box"},
 	{"name": "MixCloud"},
 	{"name": "Mobile Vikings"},
@@ -1093,11 +1110,9 @@
 	{"name": "Twitter"},
 	{"name": "UXPin"},
 	{"name": "WeTransfer"},
-	{"name": "Whatsapp"},
 	{"name": "Windows Central"},
 	{"name": "Wordpress"},
 	{"name": "Wunderlist"},
-	{"name": "YouTube"},
 	{"name": "Zalando"}
 	
 	]
