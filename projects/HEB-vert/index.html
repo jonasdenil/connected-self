@@ -3,7 +3,11 @@
 <style>
 
 body {
-  background-color: #FFE3CB;
+  background-color: #04171F;
+}
+
+text {
+  fill: #566063;
 }
 
 .node {
@@ -12,8 +16,9 @@ body {
 }
 
 .link {
-  stroke: #23A7F8;
-  stroke-opacity: .4;
+  stroke: #ccff00;
+  stroke-opacity: .2; /*normaal .4 */
+  stroke-width: 1px;
   fill: none;
 }
 
@@ -35,7 +40,7 @@ body {
 
 var margin = {top: 10, right: 140, bottom: 10, left: -400},
     width = 1800 - margin.left - margin.right,
-    height = 9000 - margin.top - margin.bottom;
+    height = 10000 - margin.top - margin.bottom;
 
 var cluster = d3.layout.cluster()
     .size([height, width])
@@ -56,7 +61,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("HEB.json", function(error, classes) {
+d3.json("../Hierarchical%20Edge%20Bundling/HEB.json", function(error, classes) {
   if (error) throw error;
 
   var nodes = cluster.nodes(packages.root(classes)),
