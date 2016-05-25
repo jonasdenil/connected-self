@@ -7,7 +7,7 @@ body {
 }
 
 .node {
-  font: 10px Hanken, sans-serif;
+  font: 3px Hanken, sans-serif;
   font-weight: light;
 }
 
@@ -27,6 +27,7 @@ body {
 .node--source,
 .node--target {
   font-weight: 700;
+  font-size: 7px;
   fill: #fff;
 }
 
@@ -73,7 +74,10 @@ text {
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
-var diameter = 3500,
+var windowWidth = window.innerWidth;
+var windowHeight = window.innerHeight;
+
+var diameter = 1440,
     radius = diameter / 2,
     innerRadius = radius - 120;
 
@@ -122,6 +126,8 @@ d3.json("HEB.json", function(error, classes) {
       .text(function(d) { return d.key; })
       .on("mouseover", mouseovered)
       .on("mouseout", mouseouted);
+
+      centerViewport();
 });
 
 function mouseovered(d) {
@@ -175,6 +181,8 @@ function packageHierarchy(classes) {
   return map[""];
 }
 
+
+
 // Return a list of imports for the given array of nodes.
 function packageImports(nodes) {
   var map = {},
@@ -194,5 +202,9 @@ function packageImports(nodes) {
 
   return imports;
 }
+
+function centerViewport() {
+  window.scrollTo(diameter/2-windowWidth/2, diameter/2-windowHeight/2);
+};
 
 </script>
