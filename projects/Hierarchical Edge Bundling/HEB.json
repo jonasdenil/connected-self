@@ -1078,9 +1078,31 @@
 		"osx.Wallpaper by Behance"
 
 	]},
-	{"name": "og.Airbnb"},
-	{"name": "og.AliExpress"},
-	{"name": "og.Amazon"},
+	{"name": "og.Airbnb", "imports": [
+		"og.Apple",
+		"app.App Store",
+		"ios.Airbnb", 
+		"gps.Airbnb",
+		"ggl.Google Play Store",
+		"og.Google"
+
+	]},
+
+	{"name": "og.AliExpress", "imports": [
+		"gps.AliExpress Shopping",
+		"og.Google",
+		"ggl.Google Play Store"
+
+	]},
+	{"name": "og.Amazon", "imports": [
+		"gps.Amazon Shopping",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Amazon",
+		"og.Apple",
+		"app.App Store"
+
+	]},
 	{"name": "og.Apple", "imports": [
 		"app.App Store",
 		"app.Game Center",
@@ -1139,13 +1161,9 @@
 		"og.Zalando",
 		"og.IFTTT"
 		
-
-
 	]},
 
 	
-	
-
 	{"name": "app.App Store", "imports": [
 					 "ios.10,000+ Wallpapers",
 					 "ios.100 Balls",
@@ -1894,10 +1912,12 @@
 					 "osx.Xcode",
 					 "osx.Zombies Ate My Friends"
 
+	]},
 
-	]
-	},
-	{"name": "app.Game Center"},
+	{"name": "app.Game Center", "imports":[
+		"og.Apple"
+	]},
+
 	{"name": "app.iCloud"},
 	{"name": "app.iTunes Store"},
 	{"name": "app.Mac App Store"},
@@ -1905,8 +1925,19 @@
 
 
 	{"name": "og.Audi"},
-	{"name": "og.BMW"},
-	{"name": "og.Bol"},
+
+	{"name": "og.BMW", "imports":[
+		"gps.My BMW Remote",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
+
+	{"name": "og.Bol", "imports":[
+		"gps.Bol",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
+
 	{"name": "og.Bongo"},
 	{"name": "og.Booking"},
 	{"name": "og.Codeacademy"},
@@ -1915,14 +1946,81 @@
 	{"name": "og.De correspondent"},
 	{"name": "og.Dille & Kamille"},
 	{"name": "og.Easy-M"},
-	{"name": "og.Ebay"},
+
+	{"name": "og.Ebay", "imports": [
+		"gps.Ebay",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
+
+
 	{"name": "og.Ello"},
-	{"name": "og.Evernote"},
-	{"name": "og.EyeEm"},
-	{"name": "og.Facebook"},
-	{"name": "og.Fancy"},
-	{"name": "og.Fitbit"},
-	{"name": "og.Fnac"},
+
+	{"name": "og.Evernote", "imports": [
+		"gps.Evernote",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Evernote",
+		"ios.Evernote Scannable",
+		"app.App Store",
+		"osx.Evernote",
+		"app.Mac App Store",
+		"og.Apple"
+
+	]},
+
+	{"name": "og.EyeEm", "imports": [
+		"ios.EyeEm",
+		"app.App Store",
+		"og.Apple"
+	]},
+
+	{"name": "og.Facebook", "imports": [
+		"og.Instagram",
+		"og.Whatsapp",
+		"ios.Facebook",
+		"ios.Messenger",
+		"ios.WhatsApp Messenger", 
+		"ios.Facebook Camera",
+		"ios.Facebook Groups",
+		"ios.Facebook Pags Manager",
+		"ios.Hyperlapse from Instagram",
+		"ios.Instagram",
+		"app.App Store",
+		"og.Apple",
+		"gps.Facebook",
+		"gps.Facebook Advertentiebeheer",
+		"gps.Facebook Messenger",
+		"gps.Instagram",
+		"gps.Messenger",
+		"gps.Paginabeheer",
+		"gps.WhatsApp",
+		"ggl.Google Play Store",
+		"og.Google"
+
+	]},
+
+	{"name": "og.Fancy", "imports":[
+		"gps.Fancy",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
+
+	{"name": "og.Fitbit", "imports": [
+		"gps.Fitbit",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Fitbit",
+		"app.App Store",
+		"og.Apple"
+	]},
+
+	{"name": "og.Fnac", "imports": [
+		"ios.Fnac",
+		"app.App Store",
+		"og.Apple"
+	]},
+
 	{"name": "og.Google", "imports": [
 			"ggl.Google Adsense",
 			"ggl.Google Calendar",
@@ -1937,6 +2035,7 @@
 			"ggl.Google Play Store",
 			"ggl.YouTube"
 	]},
+
 	{"name": "ggl.Google Adsense"},
 	{"name": "ggl.Google Calendar"},
 	{"name": "ggl.Google Chrome"},
@@ -2178,52 +2277,281 @@
 
 	{"name": "og.Groupon"},
 	{"name": "og.Hebbes"},
-	{"name": "og.Het Laatste Nieuws"},
+
+	{"name": "og.Het Laatste Nieuws", "imports": [
+		"ios.HLN Mobile",
+		"app.App Store",
+		"og.Apple"
+	]},
+
 	{"name": "og.iBood"},
-	{"name": "og.IFTTT"},
-	{"name": "og.Instagram"},
-	{"name": "og.Kapaza"},
+
+	{"name": "og.IFTTT", "imports": [
+		"gps.Do Button by IFTTT",
+		"gps.Do Note by IFTTT",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.IF by IFTTT",
+		"app.App Store",
+		"og.Apple"
+	]},
+
+	{"name": "og.Instagram", "imports": [
+		"og.Whatsapp",
+		"ios.Facebook",
+		"ios.Messenger",
+		"ios.WhatsApp Messenger", 
+		"ios.Facebook Camera",
+		"ios.Facebook Groups",
+		"ios.Facebook Pags Manager",
+		"ios.Hyperlapse from Instagram",
+		"ios.Instagram",
+		"app.App Store",
+		"og.Apple",
+		"gps.Facebook",
+		"gps.Facebook Advertentiebeheer",
+		"gps.Facebook Messenger",
+		"gps.Instagram",
+		"gps.Messenger",
+		"gps.Paginabeheer",
+		"gps.WhatsApp",
+		"ggl.Google Play Store",
+		"og.Google"		
+	]},
+
+	{"name": "og.Kapaza", "imports": [
+		"gps.Kapaza",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Kapaza",
+		"app.App Store",
+		"og.Apple"		
+	]},
+
 	{"name": "og.LinkedIn"},
 	{"name": "og.Medium"},
-	{"name": "og.Microsoft"},
-	{"name": "og.Mini In The Box"},
+
+	{"name": "og.Microsoft", "imports": [
+		"ios.Microsoft Outlook",
+		"ios.Sunrise Calendar",
+		"app.App Store",
+		"og.Apple",
+		"gps.Sunrise Calendar",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
+
+	{"name": "og.Mini In The Box", "imports":[
+		"ios.MiniInTheBox",
+		"app.App Store",
+		"og.Apple"
+	]},
+
 	{"name": "og.MixCloud"},
-	{"name": "og.Mobile Vikings"},
-	{"name": "og.Mobistar"},
-	{"name": "og.Netflix"},
+
+	{"name": "og.Mobile Vikings", "imports":[
+		"gps.Viking App",
+		"gps.Viking Talk",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.My Viking",
+		"ios.Viking App",
+		"ios.VikingFinder by Mobile Vikings",
+		"app.App Store",
+		"og.Apple"		
+	]},
+
+	{"name": "og.Mobistar", "imports": [
+		"ios.Mobistar TV",
+		"app.App Store",
+		"og.Apple"			
+	]},
+
+	{"name": "og.Netflix", "imports": [
+		"gps.Netflix",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Netflix",
+		"app.App Store",
+		"og.Apple"				
+	]},
+
 	{"name": "og.Novation"},
 	{"name": "og.One"},
-	{"name": "og.Oneplus"},
-	{"name": "og.PayPal"},
-	{"name": "og.Pinterest"},
-	{"name": "og.Proximus"},
+
+	{"name": "og.Oneplus", "imports":[
+		"gps.OnePlus Forums",
+		"gps.OnePlus Gallery",
+		"ggl.Google Play Store",
+		"og.Google"		
+	]},
+
+	{"name": "og.PayPal", "imports":[
+		"gps.PayPal",
+		"ggl.Google Play Store",
+		"og.Google",		
+		"ios.PayPal",
+		"app.App Store",
+		"og.Apple"			
+	]},
+
+	{"name": "og.Pinterest", "imports": [
+		"gps.Pinterest",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
+
+	{"name": "og.Proximus", "imports":[
+		"ios.Hello Proximus",
+		"ios.MyProximus",
+		"app.App Store",
+		"og.Apple"			
+	]},
+
 	{"name": "og.Randstad"},
-	{"name": "og.Reddit"},
+
+	{"name": "og.Reddit", "imports": [
+		"gps.BaconReader for Reddit",
+		"gps.Now for Reddit",
+		"gps.Relay for reddit",
+		"gps.Sync for reddit",
+		"ggl.Google Play Store",
+		"og.Google"		
+	]},
+
 	{"name": "og.Ryanair"},
 	{"name": "og.Sellfy"},
-	{"name": "og.Shazam"},
+
+	{"name": "og.Shazam", "imports":[
+		"gps.Shazam",
+		"ggl.Google Play Store",
+		"og.Google",
+		"osx.Shazam",
+		"ios.Shazam",
+		"app.Mac App Store",
+		"app.App Store",
+		"og.Apple"					
+	]},
+
 	{"name": "og.Shopify"},
 	{"name": "og.Slickwraps"},
-	{"name": "og.Snapchat"},
-	{"name": "og.Soundcloud"},
-	{"name": "og.Spotify"},
+
+	{"name": "og.Snapchat", "imports":[
+		"gps.Snapchat",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Snapchat",
+		"app.App Store",
+		"og.Apple"					
+	]},
+
+	{"name": "og.Soundcloud", "imports":[
+		"gps.SoundCloud",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.SoundCloud",
+		"app.App Store",
+		"og.Apple"				
+	]},
+
+	{"name": "og.Spotify", "imports":[
+		"ios.Spotify Music",
+		"app.App Store",
+		"og.Apple",
+		"gps.Spotify Music",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
+
 	{"name": "og.Sunweb"},
 	{"name": "og.Test Aankoop"},
 	{"name": "og.Themeforest"},
 	{"name": "og.Tidal"},
 	{"name": "og.Trackduck"},
 	{"name": "og.Trello"},
-	{"name": "og.Tumblr"},
-	{"name": "og.Tweedehands"},
-	{"name": "og.Twitter"},
+
+	{"name": "og.Tumblr", "imports":[
+		"ios.Tumblr",
+		"app.App Store",
+		"og.Apple",
+		"gps.Tumblr",
+		"ggl.Google Play Store",
+		"og.Google"				
+	]},
+
+	{"name": "og.Tweedehands", "imports":[
+		"gps.2dehands",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.2dehandsbe",
+		"app.App Store",
+		"og.Apple"				
+	]},
+
+	{"name": "og.Twitter", "imports":[
+		"ios.Twitter",
+		"app.App Store",
+		"og.Apple",
+		"osx.TweetDeck by Twitter",
+		"osx.Twitter",
+		"app.Mac App Store",
+		"gps.Twitter",
+		"ggl.Google Play Store",
+		"og.Google"			
+	]},
+
 	{"name": "og.UXPin"},
 	{"name": "og.WeTransfer"},
-	{"name": "og.Whatsapp"},
-	{"name": "og.Windows Central"},
+	{"name": "og.Whatsapp", "imports":[
+		"og.Instagram",
+		"ios.Facebook",
+		"ios.Messenger",
+		"ios.Facebook Camera",
+		"ios.Facebook Groups",
+		"ios.Facebook Pags Manager",
+		"ios.Hyperlapse from Instagram",
+		"ios.Instagram",
+		"app.App Store",
+		"og.Apple",
+		"gps.Facebook",
+		"gps.Facebook Advertentiebeheer",
+		"gps.Facebook Messenger",
+		"gps.Instagram",
+		"gps.Messenger",
+		"gps.Paginabeheer",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
+	{"name": "og.Windows Central", "imports":[
+		"og.Microsoft",
+		"ios.Microsoft Outlook",
+		"ios.Sunrise Calendar",
+		"app.App Store",
+		"og.Apple",
+		"gps.Sunrise Calendar",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
+
 	{"name": "og.Wordpress"},
-	{"name": "og.Wunderlist"},
+
+	{"name": "og.Wunderlist", "imports":[
+		"ios.Wunderlist",
+		"osx.Wunderlist",
+		"app.Mac App Store",
+		"app.App Store",
+		"og.Apple",
+		"gps.Wunderlist",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
+
 	{"name": "og.YouTube"},
-	{"name": "og.Zalando"},
+	{"name": "og.Zalando", "imports":[
+		"gps.Zalando",
+		"ggl.Google Play Store",
+		"og.Google"		
+	]},
 
 
 
