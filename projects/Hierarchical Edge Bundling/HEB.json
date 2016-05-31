@@ -2569,7 +2569,15 @@
 	{"name": "ios.2048 The Game"},
 	{"name": "ios.2Do"},
 	{"name": "ios.2de Scherm"},
-	{"name": "ios.2dehandsbe"},
+	{"name": "ios.2dehandsbe", "imports":[
+		"gps.2dehands",
+		"ggl.Google Play Store",
+		"og.Google",
+		"og.Tweedehands",
+		"app.App Store",
+		"og.Apple"
+	]},
+
 	{"name": "ios.31-in-1 Casino and Sportsbook"},
 	{"name": "ios.3D Illusions"},
 	{"name": "ios.3D Names"},
@@ -2585,35 +2593,219 @@
 	{"name": "ios.A_Doodle_Flight Lite"},
 	{"name": "ios.AccuWeather"},
 	{"name": "ios.Addapp Insights"},
-	{"name": "ios.Adobe Color CC"},
-	{"name": "ios.Adobe Photoshop"},
-	{"name": "ios.Adobe Photoshop Lightroom"},
-	{"name": "ios.Adobe Photoshop Mix"},
-	{"name": "ios.Adobe Shape CC"},
+
+	{"name": "ios.Adobe Color CC", "imports":[
+		"og.Adobe",
+		"ios.Adobe Photoshop",
+		"ios.Adobe Photoshop Lightroom",
+		"ios.Adobe Photoshop Mix",
+		"ios.Adobe Shape CC",
+		"ios.Behance",
+		"gps.Behance", 
+		"osx.Wallpaper by Behance"
+	]},
+
+	{"name": "ios.Adobe Photoshop", "imports":[
+		"ios.Adobe Color CC",
+		"og.Adobe",
+		"ios.Adobe Photoshop Lightroom",
+		"ios.Adobe Photoshop Mix",
+		"ios.Adobe Shape CC",
+		"ios.Behance",
+		"gps.Behance", 
+		"osx.Wallpaper by Behance"
+	]},
+
+	{"name": "ios.Adobe Photoshop Lightroom", "imports":[
+		"ios.Adobe Color CC",
+		"ios.Adobe Photoshop",
+		"og.Adobe",
+		"ios.Adobe Photoshop Mix",
+		"ios.Adobe Shape CC",
+		"ios.Behance",
+		"gps.Behance", 
+		"osx.Wallpaper by Behance"
+	]},
+
+	{"name": "ios.Adobe Photoshop Mix", "imports":[
+		"ios.Adobe Color CC",
+		"ios.Adobe Photoshop",
+		"ios.Adobe Photoshop Lightroom",
+		"og.Adobe",
+		"ios.Adobe Shape CC",
+		"ios.Behance",
+		"gps.Behance", 
+		"osx.Wallpaper by Behance"
+	]},
+
+	{"name": "ios.Adobe Shape CC", "imports":[
+		"ios.Adobe Color CC",
+		"ios.Adobe Photoshop",
+		"ios.Adobe Photoshop Lightroom",
+		"ios.Adobe Photoshop Mix",
+		"og.Adobe",
+		"ios.Behance",
+		"gps.Behance", 
+		"osx.Wallpaper by Behance"
+	]},
+
 	{"name": "ios.Adventure Town"},
 	{"name": "ios.Aerox Lite"},
 	{"name": "ios.Afterlight"},
 	{"name": "ios.Agario"},
 	{"name": "ios.Age Face"},
-	{"name": "ios.AirPort utility"},
-	{"name": "ios.Airbnb"},
+	{"name": "ios.AirPort utility", "imports":[
+		"app.App Store",
+		"app.Game Center",
+		"app.iCloud",
+		"app.iTunes Store",
+		"app.Mac App Store", 
+		"og.Apple",
+		
+		"ios.Apple Store", 
+		"ios.Find My Friends",
+		"ios.Find My iPhone",
+		"ios.Keynote",
+		"ios.Pages",
+		"ios.Podcasts",
+		"ios.Remote",
+
+		"osx.GarageBand",
+		"osx.GarageBand 6",
+		"osx.IBooks Author",
+		"osx.IMovie",
+		"osx.IPhoto",
+		"osx.Keynote",
+		"osx.Numbers",
+		"osx.OS X El Capitan",
+		"osx.OS X El Capitan GM Candidate",
+		"osx.OS X Mavericks",
+		"osx.OS X Yosemite",
+		"osx.Pages",
+		"osx.Xcode"
+	]},
+	{"name": "ios.Airbnb", "imports":[
+		"og.Apple",
+		"app.App Store",
+		"og.Airbnb", 
+		"gps.Airbnb",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
+
 	{"name": "ios.Alarm System For iPhone"},
 	{"name": "ios.Amazing Thief"},
-	{"name": "ios.Amazon"},
+	{"name": "ios.Amazon", "Pixlr-o-matic":[
+		"gps.Amazon Shopping",
+		"ggl.Google Play Store",
+		"og.Google",
+		"og.Amazon",
+		"og.Apple",
+		"app.App Store"
+	]},
 	{"name": "ios.Ambulance Rescue"},
 	{"name": "ios.Amsterdam Travel Guide"},
 	{"name": "ios.Analog Film"},
 	{"name": "ios.Analytics for iPad"},
-	{"name": "ios.Angry Birds"},
-	{"name": "ios.Angry Birds Free"},
-	{"name": "ios.Angry Birds Go!"},
-	{"name": "ios.Angry Birds Rio Free"},
-	{"name": "ios.Angry Birds Seasons Free"},
-	{"name": "ios.Angry Birds Space Free"},
+
+	{"name": "ios.Angry Birds", "imports":[
+		"gps.Angry Birds",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Angry Birds Free",
+		"ios.Angry Birds Go!",
+		"ios.Angry Birds Rio Free",
+		"ios.Angry Birds Seasons Free",
+		"ios.Angry Birds Space Free"
+	]},
+
+	{"name": "ios.Angry Birds Free", "imports":[
+		"gps.Angry Birds",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Angry Birds",
+		"ios.Angry Birds Go!",
+		"ios.Angry Birds Rio Free",
+		"ios.Angry Birds Seasons Free",
+		"ios.Angry Birds Space Free"
+	]},
+
+	{"name": "ios.Angry Birds Go!", "imports":[
+		"gps.Angry Birds",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Angry Birds Free",
+		"ios.Angry Birds",
+		"ios.Angry Birds Rio Free",
+		"ios.Angry Birds Seasons Free",
+		"ios.Angry Birds Space Free"
+	]},
+
+	{"name": "ios.Angry Birds Rio Free", "imports":[
+		"gps.Angry Birds",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Angry Birds Free",
+		"ios.Angry Birds Go!",
+		"ios.Angry Birds",
+		"ios.Angry Birds Seasons Free",
+		"ios.Angry Birds Space Free"
+	]},
+
+	{"name": "ios.Angry Birds Seasons Free", "imports":[
+		"gps.Angry Birds",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Angry Birds Free",
+		"ios.Angry Birds Go!",
+		"ios.Angry Birds Rio Free",
+		"ios.Angry Birds Seasons Free",
+		"ios.Angry Birds Space Free"
+	]},
+
+	{"name": "ios.Angry Birds Space Free", "imports":[
+	"gps.Angry Birds",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Angry Birds Free",
+		"ios.Angry Birds Go!",
+		"ios.Angry Birds Rio Free",
+		"ios.Angry Birds Seasons Free",
+		"ios.Angry Birds"
+	]},
 	{"name": "ios.Anonymous Browser Free"},
 	{"name": "ios.Anonymous Web Browser"},
 	{"name": "ios.Anti Mosquitoes"},
-	{"name": "ios.Apple Store"},
+	{"name": "ios.Apple Store", "imports":[
+		"app.App Store",
+		"app.Game Center",
+		"app.iCloud",
+		"app.iTunes Store",
+		"app.Mac App Store", 
+		"og.Apple",
+		
+		"ios.AirPort utility", 
+		"ios.Find My Friends",
+		"ios.Find My iPhone",
+		"ios.Keynote",
+		"ios.Pages",
+		"ios.Podcasts",
+		"ios.Remote",
+
+		"osx.GarageBand",
+		"osx.GarageBand 6",
+		"osx.IBooks Author",
+		"osx.IMovie",
+		"osx.IPhoto",
+		"osx.Keynote",
+		"osx.Numbers",
+		"osx.OS X El Capitan",
+		"osx.OS X El Capitan GM Candidate",
+		"osx.OS X Mavericks",
+		"osx.OS X Yosemite",
+		"osx.Pages",
+		"osx.Xcode"
+	]},
 	{"name": "ios.Applets"},
 	{"name": "ios.Argenta"},
 	{"name": "ios.Asphalt 8"},
@@ -2637,7 +2829,18 @@
 	{"name": "ios.Battle Camp"},
 	{"name": "ios.Bee Leader"},
 	{"name": "ios.Beejive for Facebook"},
-	{"name": "ios.Behance"},
+
+	{"name": "ios.Behance", "imports":[
+		"ios.Adobe Color CC",
+		"ios.Adobe Photoshop",
+		"ios.Adobe Photoshop Lightroom",
+		"ios.Adobe Photoshop Mix",
+		"ios.Adobe Shape CC",
+		"og.Adobe",
+		"gps.Behance", 
+		"osx.Wallpaper by Behance"
+	]},
+
 	{"name": "ios.Bicolor"},
 	{"name": "ios.Big Day Lite"},
 	{"name": "ios.Blackboard Mobile Learn"},
@@ -3301,7 +3504,16 @@
 	{"name": "osx.Twitter"},
 	{"name": "osx.UberStrike"},
 	{"name": "osx.VirtualDJ Home"},
-	{"name": "osx.Wallpaper by Behance"},
+	{"name": "osx.Wallpaper by Behance", "imports":[
+		"ios.Adobe Color CC",
+		"ios.Adobe Photoshop",
+		"ios.Adobe Photoshop Lightroom",
+		"ios.Adobe Photoshop Mix",
+		"ios.Adobe Shape CC",
+		"ios.Behance",
+		"gps.Behance", 
+		"og.Adobe"
+	]},
 	{"name": "osx.Wallpapers HD Lite"},
 	{"name": "osx.Wire"},
 	{"name": "osx.Wunderlist"},
@@ -3335,7 +3547,18 @@
 	{"name": "gps.Backdrops"},
 	{"name": "gps.BaconReader for Reddit"},
 	{"name": "gps.Bancontact mobile"},
-	{"name": "gps.Behance"},
+
+	{"name": "gps.Behance", "imports":[
+		"ios.Adobe Color CC",
+		"ios.Adobe Photoshop",
+		"ios.Adobe Photoshop Lightroom",
+		"ios.Adobe Photoshop Mix",
+		"ios.Adobe Shape CC",
+		"ios.Behance",
+		"og.Adobe", 
+		"osx.Wallpaper by Behance"
+	]},
+
 	{"name": "gps.Big Maker"},
 	{"name": "gps.Bitcoin Billionaire"},
 	{"name": "gps.Blackboard"},
