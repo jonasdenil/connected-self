@@ -2460,7 +2460,9 @@
 		"og.Apple",
 		"gps.Spotify Music",
 		"ggl.Google Play Store",
-		"og.Google"	
+		"og.Google",
+		"ios.Sonos Controller",
+		"gps.Sonos Controller"
 	]},
 
 	{"name": "og.Sunweb"},
@@ -2501,7 +2503,11 @@
 	]},
 
 	{"name": "og.UXPin"},
-	{"name": "og.WeTransfer"},
+	{"name": "og.WeTransfer", "imports":[
+		"ios.WeTranfer",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "og.Whatsapp", "imports":[
 		"og.Instagram",
 		"ios.Facebook",
@@ -2807,14 +2813,22 @@
 		"osx.Xcode"
 	]},
 	{"name": "ios.Applets"},
-	{"name": "ios.Argenta"},
+	{"name": "ios.Argenta", "imports":[
+		"gps.Argenta Bankieren",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "ios.Asphalt 8"},
 	{"name": "ios.Astrid Soundboard"},
 	{"name": "ios.Atari's Greatest Hits"},
 	{"name": "ios.Atomic Web Broser Lite"},
 	{"name": "ios.Audi Configurator BE"},
 	{"name": "ios.AutoCAD 360"},
-	{"name": "ios.Autoblog"},
+	{"name": "ios.Autoblog", "imports":[
+		"gps.Autoblog",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "ios.Autoccasion Last Minute"},
 	{"name": "ios.Autosalon Brussels 2013"},
 	{"name": "ios.BBTAN"},
@@ -2828,6 +2842,7 @@
 		"app.App Store",
 		"gps.Hello bank!",
 		"gps.Argenta Bankieren",
+		"gps.Bancontact mobile",
 		"ggl.Google Play Store",
 		"og.Google"
 	]},
@@ -3008,7 +3023,11 @@
 	{"name": "ios.Dots Puzzle Free"},
 	{"name": "ios.DrawRace"},
 	{"name": "ios.Drive Radio"},
-	{"name": "ios.Dropbox"},
+	{"name": "ios.Dropbox", "imports":[
+		"gps.Dropbox",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "ios.Drum Kit"},
 	{"name": "ios.Ds Nieuws"},
 	{"name": "ios.Dubsmash"},
@@ -4579,7 +4598,15 @@
 	]},
 	{"name": "ios.Hysteria Project"},
 	{"name": "ios.I Dig It"},
-	{"name": "ios.IF by IFTTT"},
+	{"name": "ios.IF by IFTTT", "imports":[
+		"gps.Do Button by IFTTT",
+		"gps.Do Note by IFTTT",
+		"ggl.Google Play Store",
+		"og.Google",
+		"og.IFTTT",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "ios.IKEA Catalogue"},
 	{"name": "ios.Icebreaker"},
 	{"name": "ios.Icon Skins"},
@@ -4756,7 +4783,29 @@
 	{"name": "ios.Lapse It"},
 	{"name": "ios.Lastronaut"},
 	{"name": "ios.Layar"},
-	{"name": "ios.Layout from Instagram"},
+	{"name": "ios.Layout from Instagram", "imports":[
+		"og.Instagram",
+		"og.Whatsapp",
+		"ios.Facebook",
+		"ios.Messenger",
+		"ios.WhatsApp Messenger", 
+		"ios.Facebook Camera",
+		"ios.Facebook Groups",
+		"ios.Facebook Pags Manager",
+		"ios.Hyperlapse from Instagram",
+		"ios.Instagram",
+		"app.App Store",
+		"og.Apple",
+		"gps.Facebook",
+		"gps.Facebook Advertentiebeheer",
+		"gps.Facebook Messenger",
+		"gps.Instagram",
+		"gps.Messenger",
+		"gps.Paginabeheer",
+		"gps.WhatsApp",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "ios.Levis Visualiser"},
 	{"name": "ios.Lingo The Official Game"},
 	{"name": "ios.Litely"},
@@ -4783,8 +4832,12 @@
 	{"name": "ios.Max Axe"},
 	{"name": "ios.Mediafire"},
 	{"name": "ios.Mega Dead Pixel"},
-	{"name": "ios.Mega Jump"},
-	{"name": "ios.Mega Jump 2"},
+	{"name": "ios.Mega Jump", "imports":[
+		"ios.Mega Jump 2"
+	]},
+	{"name": "ios.Mega Jump 2", "imports":[
+		"ios.Mega Jump"
+	]},
 	{"name": "ios.Mega Run"},
 	{"name": "ios.Messenger", "imports":[
 		"og.Instagram",
@@ -4812,7 +4865,9 @@
 	{"name": "ios.Microsoft Outlook"},
 	{"name": "ios.Mijn Eetmeter"},
 	{"name": "ios.Minecraft Explorer"},
-	{"name": "ios.MiniInTheBox"},
+	{"name": "ios.MiniInTheBox", "imports":[
+		"og.Mini In The Box"
+	]},
 	{"name": "ios.Miniatures: Tilt Shift"},
 	{"name": "ios.Mirror's Edge"},
 	{"name": "ios.Mobile Mouse Remote"},
@@ -4836,19 +4891,35 @@
 	{"name": "ios.My BIC Lighter"},
 	{"name": "ios.My Measures PRO"},
 	{"name": "ios.My Viking"},
-	{"name": "ios.MyProximus"},
+	{"name": "ios.MyProximus", "imports":[
+		"ios.Hello Proximus",
+		"og.Proximus",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "ios.NS Setup"},
 	{"name": "ios.Need for Speed Shift FREE"},
 	{"name": "ios.Nespresso"},
 	{"name": "ios.Nestlé Dessert"},
-	{"name": "ios.Netflix"},
+	{"name": "ios.Netflix", "imports":[
+		"gps.Netflix",
+		"ggl.Google Play Store",
+		"og.Google",
+		"og.Netflix",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "ios.Netlog"},
 	{"name": "ios.Network Analyser Lite"},
 	{"name": "ios.Network Audio Remote"},
 	{"name": "ios.New Hockey Lite"},
 	{"name": "ios.New York City Travel Guide"},
-	{"name": "ios.Nike+ Fuel"},
-	{"name": "ios.Nike+ Running"},
+	{"name": "ios.Nike+ Fuel", "imports":[
+		"ios.Nike+ Running"
+	]},
+	{"name": "ios.Nike+ Running", "imports":[
+		"ios.Nike+ Running"
+	]},
 	{"name": "ios.No Crop"},
 	{"name": "ios.Notability"},
 	{"name": "ios.Novotel Hotels"},
@@ -4894,11 +4965,23 @@
 	{"name": "ios.Panorama"},
 	{"name": "ios.Panorama 360"},
 	{"name": "ios.Paper Glider"},
-	{"name": "ios.Paper Toss"},
-	{"name": "ios.Paper Toss 2"},
+	{"name": "ios.Paper Toss", "imports":[
+		"ios.Paper Toss 2"
+	]},
+	{"name": "ios.Paper Toss 2", "imports":[
+		"ios.Paper Toss"
+
+	]},
 	{"name": "ios.Paper by FiftyThree"},
 	{"name": "ios.Parking Frenzy 2"},
-	{"name": "ios.PayPal"},
+	{"name": "ios.PayPal", "imports":[
+		"gps.PayPal",
+		"ggl.Google Play Store",
+		"og.Google",		
+		"og.PayPal",
+		"app.App Store",
+		"og.Apple"		
+	]},
 	{"name": "ios.Payconiq"},
 	{"name": "ios.Peak"},
 	{"name": "ios.Pebble"},
@@ -4922,11 +5005,22 @@
 	{"name": "ios.Pixlr"},
 	{"name": "ios.Pixlr-o-matic"},
 	{"name": "ios.Pizza Shop Mania"},
-	{"name": "ios.Plants vs Zombies"},
-	{"name": "ios.Plants vs Zombies 2"},
+	{"name": "ios.Plants vs Zombies", "imports":[
+		"ios.Plants vs Zombies 2"
+	]},
+	{"name": "ios.Plants vs Zombies 2", "imports":[
+		"ios.Plants vs Zombies"
+	]},
 	{"name": "ios.Plasma Globe"},
 	{"name": "ios.PlayStation App"},
-	{"name": "ios.Pocket"},
+	{"name": "ios.Pocket", "imports":[
+		"osx.Pocket",
+		"gps.Pocket",
+		"ggl.Google Play Store",
+		"og.Google",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "ios.Pocket Mine"},
 	{"name": "ios.Pocket Planes"},
 	{"name": "ios.Podcasts", "imports":[
@@ -5041,7 +5135,16 @@
 	{"name": "ios.Shades"},
 	{"name": "ios.Shadow Fight 2"},
 	{"name": "ios.SharePlus Lite"},
-	{"name": "ios.Shazam"},
+	{"name": "ios.Shazam", "imports":[
+		"gps.Shazam",
+		"ggl.Google Play Store",
+		"og.Google",
+		"osx.Shazam",
+		"og.Shazam",
+		"app.Mac App Store",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "ios.Shuriken Block"},
 	{"name": "ios.Skate It by EA FREE"},
 	{"name": "ios.SketchBook Mobile"},
@@ -5051,13 +5154,22 @@
 	{"name": "ios.Skype for iPhone"},
 	{"name": "ios.Skyrock"},
 	{"name": "ios.Skyward"},
-	{"name": "ios.Slack"},
+	{"name": "ios.Slack", "imports":[
+		"osx.Slack"
+	]},
 	{"name": "ios.Sleep Better"},
 	{"name": "ios.Slide"},
 	{"name": "ios.SloPro"},
 	{"name": "ios.Smartphone Essentials"},
 	{"name": "ios.Snake '97"},
-	{"name": "ios.Snapchat"},
+	{"name": "ios.Snapchat", "imports":[
+		"gps.Snapchat",
+		"ggl.Google Play Store",
+		"og.Google",
+		"og.Snapchat",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "ios.Snapseed", "imports":[
 		"ggl.Google Adsense",
 		"ggl.Google Calendar",
@@ -5139,15 +5251,37 @@
 	{"name": "ios.Socialblend"},
 	{"name": "ios.Sonic Dash"},
 	{"name": "ios.Sonic Jump Fever"},
-	{"name": "ios.Sonos Controller"},
+	{"name": "ios.Sonos Controller", "imports":[
+		"gps.Sonos Controller",
+		"ggl.Google Play Store",
+		"og.Google",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "ios.Sound Effects"},
-	{"name": "ios.SoundCloud"},
+	{"name": "ios.SoundCloud", "imports":[
+		"og.Soundcloud",
+		"ggl.Google Play Store",
+		"og.Google",
+		"gps.SoundCloud",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "ios.SoundHound +"},
 	{"name": "ios.Spaceteam"},
 	{"name": "ios.Spark Camera"},
 	{"name": "ios.Speedtest"},
 	{"name": "ios.Splice"},
-	{"name": "ios.Spotify Music"},
+	{"name": "ios.Spotify Music", "imports":[
+		"gps.Spotify Music",
+		"ios.Sonos Controller",
+		"gps.Sonos Controller",
+		"app.App Store",
+		"og.Apple",
+		"og.Spotify",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "ios.Spray Can"},
 	{"name": "ios.Spring Ninja"},
 	{"name": "ios.Squaready for Video"},
@@ -5168,7 +5302,15 @@
 	{"name": "ios.Substrate"},
 	{"name": "ios.Subway Surfers"},
 	{"name": "ios.Sunny Seeds"},
-	{"name": "ios.Sunrise Calendar"},
+	{"name": "ios.Sunrise Calendar", "imports":[
+		"ios.Microsoft Outlook",
+		"ios.Sunrise Calendar",
+		"app.App Store",
+		"og.Apple",
+		"og.Microsoft",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "ios.Super Ball Juggling"},
 	{"name": "ios.Super World Adventures"},
 	{"name": "ios.Suske en Wiske"},
@@ -5180,8 +5322,12 @@
 	{"name": "ios.TRON"},
 	{"name": "ios.TV Overal"},
 	{"name": "ios.TagsForLikes"},
-	{"name": "ios.Tap Tap Revenge 3"},
-	{"name": "ios.Tap Tap Revenge 4"},
+	{"name": "ios.Tap Tap Revenge 3", "imports":[
+		"ios.Tap Tap Revenge 4"
+	]},
+	{"name": "ios.Tap Tap Revenge 4", "imports":[
+		"ios.Tap Tap Revenge 3"
+	]},
 	{"name": "ios.Tayasui Sketches"},
 	{"name": "ios.Temple Run"},
 	{"name": "ios.Ten"},
@@ -5220,8 +5366,25 @@
 	{"name": "ios.Trials Frontier"},
 	{"name": "ios.Trollolol"},
 	{"name": "ios.True Skate"},
-	{"name": "ios.Tumblr"},
-	{"name": "ios.Twitter"},
+	{"name": "ios.Tumblr", "imports":[
+		"og.Tumblr",
+		"app.App Store",
+		"og.Apple",
+		"gps.Tumblr",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
+	{"name": "ios.Twitter", "imports":[
+		"og.Twitter",
+		"app.App Store",
+		"og.Apple",
+		"osx.TweetDeck by Twitter",
+		"osx.Twitter",
+		"app.Mac App Store",
+		"gps.Twitter",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
 	{"name": "ios.UNO"},
 	{"name": "ios.UP by Jawbone"},
 	{"name": "ios.USB Disk Free"},
@@ -5230,12 +5393,36 @@
 	{"name": "ios.Unicode Character Map"},
 	{"name": "ios.VLC Streamer"},
 	{"name": "ios.VLC for Mobile"},
-	{"name": "ios.VSCO"},
+	{"name": "ios.VSCO", "imports":[
+		"gps.VSCO",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "ios.Video Rotate & Flip"},
 	{"name": "ios.Video Rotate Free"},
 	{"name": "ios.Vidgets"},
-	{"name": "ios.Viking App"},
-	{"name": "ios.VikingFinder by Mobile Vikings"},
+	{"name": "ios.Viking App", "imports":[
+		"gps.Viking App",
+		"gps.Viking Talk",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.My Viking",
+		"og.Mobile Vikings",
+		"ios.VikingFinder by Mobile Vikings",
+		"app.App Store",
+		"og.Apple"	
+	]},
+	{"name": "ios.VikingFinder by Mobile Vikings", "imports":[
+		"gps.Viking App",
+		"gps.Viking Talk",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.My Viking",
+		"ios.Viking App",
+		"og.Mobile Vikings",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "ios.Vimeo"},
 	{"name": "ios.Vine"},
 	{"name": "ios.Vintage Camera"},
@@ -5325,7 +5512,9 @@
 		"gps.YouTube",
 		"gps.YouTube Creator"
 	]},
-	{"name": "ios.WeTranfer"},
+	{"name": "ios.WeTranfer", "imports":[
+		"og.WeTransfer"
+	]},
 	{"name": "ios.WhatsApp Messenger", "imports":[
 		"og.Instagram",
 		"og.Whatsapp",
@@ -5348,12 +5537,24 @@
 		"ggl.Google Play Store",
 		"og.Google"
 	]},
-	{"name": "ios.Where's My Water? 2"},
-	{"name": "ios.Where's My Water? Free"},
+	{"name": "ios.Where's My Water? 2", "imports":[
+		"ios.Where's My Water? Free"
+	]},
+	{"name": "ios.Where's My Water? Free", "imports":[
+		"ios.Where's My Water? 2"
+	]},
 	{"name": "ios.Whitagram"},
 	{"name": "ios.Whiteboard Lite"},
 	{"name": "ios.Wikipedia"},
-	{"name": "ios.Windows Live Messenger"},
+	{"name": "ios.Windows Live Messenger", "imports":[
+		"ios.Microsoft Outlook",
+		"ios.Sunrise Calendar",
+		"app.App Store",
+		"og.Apple",
+		"gps.Sunrise Calendar",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "ios.Wire"},
 	{"name": "ios.Wooden Labyrinth"},
 	{"name": "ios.Wor Scramble Challenge"},
@@ -5361,7 +5562,16 @@
 	{"name": "ios.Wordpress"},
 	{"name": "ios.World Weather Radar"},
 	{"name": "ios.Worms"},
-	{"name": "ios.Wunderlist"},
+	{"name": "ios.Wunderlist", "imports":[
+		"og.Wunderlist",
+		"osx.Wunderlist",
+		"app.Mac App Store",
+		"app.App Store",
+		"og.Apple",
+		"gps.Wunderlist",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "ios.XSysInfo"},
 	{"name": "ios.Yahoo Weather"},
 	{"name": "ios.You Doodle"},
@@ -5473,7 +5683,17 @@
 	{"name": "osx.Disk Diag"},
 	{"name": "osx.Dr Cleaner"},
 	{"name": "osx.Duplicate Cleaner For iPhoto"},
-	{"name": "osx.Evernote"},
+	{"name": "osx.Evernote", "imports":[
+		"gps.Evernote",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Evernote",
+		"ios.Evernote Scannable",
+		"app.App Store",
+		"og.Evernote",
+		"app.Mac App Store",
+		"og.Apple"
+	]},
 	{"name": "osx.Extreme Road Trip 2"},
 	{"name": "osx.Facebox Pro for Facebook"},
 	{"name": "osx.Fireplace"},
@@ -5847,7 +6067,14 @@
 		"osx.Xcode"
 	]},
 	{"name": "osx.Pinball Masacre Lite"},
-	{"name": "osx.Pocket"},
+	{"name": "osx.Pocket", "imports":[
+		"ios.Pocket",
+		"gps.Pocket",
+		"ggl.Google Play Store",
+		"og.Google",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "osx.Pocket Planes"},
 	{"name": "osx.Pool!"},
 	{"name": "osx.Pushbullet"},
@@ -5864,10 +6091,20 @@
 	{"name": "osx.Shazam"},
 	{"name": "osx.Simplenote"},
 	{"name": "osx.Skitch"},
-	{"name": "osx.Slack"},
+	{"name": "osx.Slack", "imports":[
+		"ios.Slack"
+	]},
 	{"name": "osx.Stand O'Food 3"},
 	{"name": "osx.Stond O'Food Free"},
-	{"name": "osx.Sunrise Calendar"},
+	{"name": "osx.Sunrise Calendar", "imports":[
+		"ios.Microsoft Outlook",
+		"ios.Sunrise Calendar",
+		"app.App Store",
+		"og.Apple",
+		"gps.Sunrise Calendar",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "osx.Swipes"},
 	{"name": "osx.Text Wrangler"},
 	{"name": "osx.The Sandbox"},
@@ -5876,8 +6113,28 @@
 	{"name": "osx.The Unarchiver"},
 	{"name": "osx.Touchgrind"},
 	{"name": "osx.Touchgrind BMX"},
-	{"name": "osx.TweetDeck by Twitter"},
-	{"name": "osx.Twitter"},
+	{"name": "osx.TweetDeck by Twitter", "imports":[
+		"ios.Twitter",
+		"app.App Store",
+		"og.Apple",
+		"og.Twitter",
+		"osx.Twitter",
+		"app.Mac App Store",
+		"gps.Twitter",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
+	{"name": "osx.Twitter", "imports":[
+		"ios.Twitter",
+		"app.App Store",
+		"og.Apple",
+		"osx.TweetDeck by Twitter",
+		"og.Twitter",
+		"app.Mac App Store",
+		"gps.Twitter",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
 	{"name": "osx.UberStrike"},
 	{"name": "osx.VirtualDJ Home"},
 	{"name": "osx.Wallpaper by Behance", "imports":[
@@ -5892,7 +6149,16 @@
 	]},
 	{"name": "osx.Wallpapers HD Lite"},
 	{"name": "osx.Wire"},
-	{"name": "osx.Wunderlist"},
+	{"name": "osx.Wunderlist", "imports":[
+		"ios.Wunderlist",
+		"og.Wunderlist",
+		"app.Mac App Store",
+		"app.App Store",
+		"og.Apple",
+		"gps.Wunderlist",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "osx.Xcode", "imports":[
 		"app.App Store",
 		"app.Game Center",
@@ -5927,16 +6193,36 @@
 
 	{"name": "gps.1Password"},
 	{"name": "gps.2048"},
-	{"name": "gps.2dehands"},
+	{"name": "gps.2dehands", "imports":[
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.2dehandsbe",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "gps.AZ Screen Recorder"},
 	{"name": "gps.Aa"},
 	{"name": "gps.Afterlight"},
-	{"name": "gps.Airbnb"},
+	{"name": "gps.Airbnb", "imports":[
+		"og.Apple",
+		"app.App Store",
+		"ios.Airbnb", 
+		"og.Airbnb",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "gps.AliExpress Shopping"},
 	{"name": "gps.AllCast"},
 	{"name": "gps.AllStream"},
 	{"name": "gps.Alto's Adventure"},
-	{"name": "gps.Amazon Shopping"},
+	{"name": "gps.Amazon Shopping", "imports":[
+		"og.Amazon",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Amazon",
+		"og.Apple",
+		"app.App Store"
+	]},
 	{"name": "gps.AndroZIP"},
 	{"name": "gps.Android System Webview", "imports":[
 		"ggl.Google Adsense",
@@ -6093,16 +6379,41 @@
 		"gps.YouTube Creator"
 	]},
 	{"name": "gps.Angry Birds"},
-	{"name": "gps.Argenta Bankieren"},
+	{"name": "gps.Argenta Bankieren", "imports":[
+		"ios.Argenta",
+		"og.Apple",
+		"app.App Store"
+	]},
 	{"name": "gps.Arrow Launcher"},
 	{"name": "gps.Audio Recorder"},
-	{"name": "gps.Autoblog"},
+	{"name": "gps.Autoblog", "imports":[
+		"ios.Autoblog",
+		"og.Apple",
+		"app.App Store"
+	]},
 	{"name": "gps.Autosync Google Drive"},
 	{"name": "gps.BADLAND"},
 	{"name": "gps.BBTAN"},
 	{"name": "gps.Backdrops"},
-	{"name": "gps.BaconReader for Reddit"},
-	{"name": "gps.Bancontact mobile"},
+	{"name": "gps.BaconReader for Reddit", "imports":[
+		"og.Reddit",
+		"gps.Now for Reddit",
+		"gps.Relay for reddit",
+		"gps.Sync for reddit",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
+	{"name": "gps.Bancontact mobile", "imports":[
+		"ios.Argenta",
+		"ios.Hello bank!",
+		"og.Apple",
+		"app.App Store",
+		"gps.Hello bank!",
+		"gps.Argenta Bankieren",
+		"ios.Bancontact Mobile",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 
 	{"name": "gps.Behance", "imports":[
 		"ios.Adobe Color CC",
@@ -6118,7 +6429,9 @@
 	{"name": "gps.Big Maker"},
 	{"name": "gps.Bitcoin Billionaire"},
 	{"name": "gps.Blackboard"},
-	{"name": "gps.Bol"},
+	{"name": "gps.Bol", "imports":[
+		"og.Bol"
+	]},
 	{"name": "gps.Buzz Widget"},
 	{"name": "gps.Call Recorder"},
 	{"name": "gps.CamScanner"},
@@ -6365,15 +6678,47 @@
 	{"name": "gps.Cut the Rope"},
 	{"name": "gps.De Lijn"},
 	{"name": "gps.De Slimste Mens ter Wereld"},
-	{"name": "gps.Do Button by IFTTT"},
-	{"name": "gps.Do Note by IFTTT"},
+	{"name": "gps.Do Button by IFTTT", "imports":[
+		"og.IFTTT",
+		"gps.Do Note by IFTTT",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.IF by IFTTT",
+		"app.App Store",
+		"og.Apple"
+	]},
+	{"name": "gps.Do Note by IFTTT", "imports":[
+		"gps.Do Button by IFTTT",
+		"og.IFTTT",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.IF by IFTTT",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "gps.Doodle for Messenger"},
 	{"name": "gps.DreamLab"},
-	{"name": "gps.Dropbox"},
+	{"name": "gps.Dropbox", "imports":[
+		"ios.Dropbox",
+		"app.Mac App Store",
+		"og.Apple"
+	]},
 	{"name": "gps.Easy Backup & Restore"},
-	{"name": "gps.Ebay"},
+	{"name": "gps.Ebay", "imports":[
+		"og.Ebay"
+	]},
 	{"name": "gps.Emulator for GBA"},
-	{"name": "gps.Evernote"},
+	{"name": "gps.Evernote", "imports":[
+		"og.Evernote",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Evernote",
+		"ios.Evernote Scannable",
+		"app.App Store",
+		"osx.Evernote",
+		"app.Mac App Store",
+		"og.Apple"
+	]},
 	{"name": "gps.Facebook", "imports":[
 		"og.Instagram",
 		"og.Whatsapp",
@@ -6443,10 +6788,21 @@
 		"ggl.Google Play Store",
 		"og.Google"
 	]},
-	{"name": "gps.Fancy"},
+	{"name": "gps.Fancy", "imports":[
+		"og.Fancy",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "gps.Fast like a fox"},
 	{"name": "gps.File Transfer by Infinit"},
-	{"name": "gps.Fitbit"},
+	{"name": "gps.Fitbit", "imports":[
+		"og.Fitbit",
+		"ggl.Google Play Store",
+		"og.Google",
+		"og.Fitbit",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "gps.Flightradar 24"},
 	{"name": "gps.Flow Home"},
 	{"name": "gps.Foto Bewerker door Aviary"},
@@ -8847,11 +9203,25 @@
 		"gps.YouTube Creator"
 	]},
 	{"name": "gps.Happy Heli Wheels"},
-	{"name": "gps.Hello bank!"},
+	{"name": "gps.Hello bank!", "imports":[
+		"og.Apple",
+		"app.App Store",
+		"ios.Hello bank!",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "gps.Hill Climb Racing"},
 	{"name": "gps.Humo's Knuffelbos"},
 	{"name": "gps.Humo's tv-gids"},
-	{"name": "gps.IF by IFTTT"},
+	{"name": "gps.IF by IFTTT", "imports":[
+		"gps.Do Button by IFTTT",
+		"gps.Do Note by IFTTT",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.IF by IFTTT",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "gps.Imgur", "imports":[
 		"ios.Imgur",
 		"ggl.Google Play Store",
@@ -8859,7 +9229,83 @@
 	]},
 	{"name": "gps.Immobilien Scout24"},
 	{"name": "gps.Immoweb"},
-	{"name": "gps.Inbox by Gmail"},
+	{"name": "gps.Inbox by Gmail", "imports":[
+		"ggl.Google Adsense",
+		"ggl.Google Calendar",
+		"ggl.Google Chrome",
+		"ggl.Google Drive",
+		"ggl.Google Fit",
+		"ggl.Gmail",
+		"ggl.Hangouts",
+		"ggl.Keep",
+		"ggl.Google Now",
+		"ggl.Google Photos",
+		"ggl.Google Play Store",
+		"ggl.YouTube",
+		"og.Google",
+		"ios.Gmail",
+		"ios.Google",
+		"ios.Google Calendar",
+		"ios.Google Docs",
+		"ios.Google Drive",
+		"ios.Google Earth",
+		"ios.Google Maps",
+		"ios.Google News & Weather",
+		"ios.Google Photos",
+		"ios.Google Play Music",
+		"ios.Google Play Newsstand",
+		"ios.Google Sheets",
+		"ios.Google Slides",
+		"ios.Google Street View",
+		"ios.Google+",
+		"ios.Hangouts",
+		"ios.Inbox by Gmail",
+		"ios.Snapseed",
+		"ios.Waze GPS",
+		"ios.YouTube",
+		"og.Apple",
+		"app.App Store",
+		"gps.Android System Webview",
+		"gps.Android-apparaatbeheer",
+		"gps.Chrome Remote",
+		"gps.Chrome-browser",
+		"gps.Cloudprinter",
+		"gps.Gmail",
+		"gps.Google",
+		"gps.Google AdSense",
+		"gps.Google Analytics",
+		"gps.Google Calendar",
+		"gps.Google Camera",
+		"gps.Google Cast",
+		"gps.Google Documenten",
+		"gps.Google Drive",
+		"gps.Google Fit",
+		"gps.Google Foto's",
+		"gps.Google I/O 2016",
+		"gps.Google Indic Keyboard",
+		"gps.Google Keep",
+		"gps.Google My Maps",
+		"gps.Google Nieuws en Weer",
+		"gps.Google Now Launcher",
+		"gps.Google PDF Viewer",
+		"gps.Google Play Films",
+		"gps.Google Play Games",
+		"gps.Google Play Music",
+		"gps.Google Play Services",
+		"gps.Google Presentaties",
+		"gps.Google Santa Tracker",
+		"gps.Google Spreadsheets",
+		"gps.Google TalkBack",
+		"gps.Google Toetsenbord",
+		"gps.Google Translate",
+		"gps.Google tekst-naar-Spraak",
+		"gps.Google+",
+		"gps.Maps",
+		"gps.Snapseed",
+		"gps.Waze",
+		"gps.YouTube",
+		"gps.YouTube Creator"
+	]},
 	{"name": "gps.InstaSize"},
 	{"name": "gps.Instagram", "imports":[
 		"og.Instagram",
@@ -9007,19 +9453,47 @@
 		"og.Google"
 	]},
 	{"name": "gps.Metal for Facebook"},
-	{"name": "gps.My BMW Remote"},
+	{"name": "gps.My BMW Remote", "imports":[
+		"og.BMW",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "gps.My MWC Event App Official"},
 	{"name": "gps.NMBS"},
 	{"name": "gps.NS Setup"},
-	{"name": "gps.Netflix"},
+	{"name": "gps.Netflix", "imports":[
+		"og.Netflix",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Netflix",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "gps.Network Audio Remote"},
 	{"name": "gps.Nova Launcher"},
 	{"name": "gps.Nova Launcher Prima"},
-	{"name": "gps.Now for Reddit"},
+	{"name": "gps.Now for Reddit", "imports":[
+		"gps.BaconReader for Reddit",
+		"og.Reddit",
+		"gps.Relay for reddit",
+		"gps.Sync for reddit",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
 	{"name": "gps.Office Lens"},
 	{"name": "gps.Okay?"},
-	{"name": "gps.OnePlus Forums"},
-	{"name": "gps.OnePlus Gallery"},
+	{"name": "gps.OnePlus Forums", "imports":[
+		"og.Oneplus",
+		"gps.OnePlus Gallery",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
+	{"name": "gps.OnePlus Gallery", "imports":[
+		"gps.OnePlus Forums",
+		"og.Oneplus",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
 	{"name": "gps.Paginabeheer", "imports":[
 		"og.Instagram",
 		"og.Whatsapp",
@@ -9042,13 +9516,29 @@
 		"ggl.Google Play Store",
 		"og.Google"
 	]},
-	{"name": "gps.PayPal"},
+	{"name": "gps.PayPal", "imports":[
+		"og.PayPal",
+		"ggl.Google Play Store",
+		"og.Google",		
+		"ios.PayPal",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "gps.Pebble"},
 	{"name": "gps.Peerby"},
-	{"name": "gps.Pinterest"},
+	{"name": "gps.Pinterest", "imports":[
+		"og.Pinterest"
+	]},
 	{"name": "gps.Plants vs Zombies"},
 	{"name": "gps.Plastexo"},
-	{"name": "gps.Pocket"},
+	{"name": "gps.Pocket", "imports":[
+		"ios.Pocket",
+		"osx.Pocket",
+		"ggl.Google Play Store",
+		"og.Google",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "gps.Pot Farm"},
 	{"name": "gps.Pushbullet"},
 	{"name": "gps.QR Code Reader"},
@@ -9056,16 +9546,39 @@
 	{"name": "gps.Radio België"},
 	{"name": "gps.Ready Steady Bang"},
 	{"name": "gps.Reflexion"},
-	{"name": "gps.Relay for reddit"},
+	{"name": "gps.Relay for reddit", "imports":[
+		"gps.BaconReader for Reddit",
+		"gps.Now for Reddit",
+		"og.Reddit",
+		"gps.Sync for reddit",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
 	{"name": "gps.Rippple"},
-	{"name": "gps.Shazam"},
+	{"name": "gps.Shazam", "imports":[
+		"og.Shazam",
+		"ggl.Google Play Store",
+		"og.Google",
+		"osx.Shazam",
+		"ios.Shazam",
+		"app.Mac App Store",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "gps.Shuttle Music Player"},
 	{"name": "gps.SimCity BuildIt"},
 	{"name": "gps.Skiing Yeti Mountain"},
 	{"name": "gps.SleepyTime"},
 	{"name": "gps.Smart Voice Recorder"},
 	{"name": "gps.Smashy Road"},
-	{"name": "gps.Snapchat"},
+	{"name": "gps.Snapchat", "imports":[
+		"og.Snapchat",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.Snapchat",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "gps.Snapseed", "imports":[
 		"ggl.Google Adsense",
 		"ggl.Google Calendar",
@@ -9143,21 +9656,60 @@
 		"gps.YouTube",
 		"gps.YouTube Creator"
 	]},
-	{"name": "gps.Sonos Controller"},
-	{"name": "gps.SoundCloud"},
+	{"name": "gps.Sonos Controller", "imports":[
+		"ios.Sonos Controller",
+		"ggl.Google Play Store",
+		"og.Google",
+		"app.App Store",
+		"og.Apple",
+		"ios.Spotify Music",
+		"gps.Spotify Music"
+	]},
+	{"name": "gps.SoundCloud", "imports":[
+		"og.Soundcloud",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.SoundCloud",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "gps.Speedtest"},
-	{"name": "gps.Spotify Music"},
+	{"name": "gps.Spotify Music", "imports":[
+		"ios.Spotify Music",
+		"ios.Sonos Controller",
+		"gps.Sonos Controller",
+		"app.App Store",
+		"og.Apple",
+		"og.Spotify",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "gps.Square InstaPic"},
 	{"name": "gps.SquareIt"},
 	{"name": "gps.Squarespace Notes"},
 	{"name": "gps.Stack"},
 	{"name": "gps.Steam"},
 	{"name": "gps.Stickman Cliff Diver"},
-	{"name": "gps.Sunrise Calendar"},
+	{"name": "gps.Sunrise Calendar", "imports":[
+		"ios.Microsoft Outlook",
+		"ios.Sunrise Calendar",
+		"app.App Store",
+		"og.Apple",
+		"og.Microsoft",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "gps.Superbrothers S&S"},
 	{"name": "gps.SwiftKey"},
 	{"name": "gps.Sygic Navigation"},
-	{"name": "gps.Sync for reddit"},
+	{"name": "gps.Sync for reddit", "imports":[
+		"gps.BaconReader for Reddit",
+		"gps.Now for Reddit",
+		"gps.Relay for reddit",
+		"og.Reddit",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
 	{"name": "gps.SyncME"},
 	{"name": "gps.Tapatalk"},
 	{"name": "gps.Telegram"},
@@ -9169,14 +9721,55 @@
 	{"name": "gps.Threes! Free"},
 	{"name": "gps.Thumb Drift"},
 	{"name": "gps.Traffic Racer"},
-	{"name": "gps.Tumblr"},
+	{"name": "gps.Tumblr", "imports":[
+		"og.Tumblr",
+		"app.App Store",
+		"og.Apple",
+		"gps.Tumblr",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
 	{"name": "gps.Twilight"},
-	{"name": "gps.Twitter"},
+	{"name": "gps.Twitter", "imports":[
+		"ios.Twitter",
+		"app.App Store",
+		"og.Apple",
+		"osx.TweetDeck by Twitter",
+		"osx.Twitter",
+		"app.Mac App Store",
+		"og.Twitter",
+		"ggl.Google Play Store",
+		"og.Google"		
+	]},
 	{"name": "gps.Two Dots"},
-	{"name": "gps.VSCO"},
+	{"name": "gps.VSCO", "imports":[
+		"ios.VSCO",
+		"app.App Store",
+		"og.Apple"
+	]},
 	{"name": "gps.VakantiePiraten"},
-	{"name": "gps.Viking App"},
-	{"name": "gps.Viking Talk"},
+	{"name": "gps.Viking App", "imports":[
+		"og.Mobile Vikings",
+		"gps.Viking Talk",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.My Viking",
+		"ios.Viking App",
+		"ios.VikingFinder by Mobile Vikings",
+		"app.App Store",
+		"og.Apple"	
+	]},
+	{"name": "gps.Viking Talk", "imports":[
+		"gps.Viking App",
+		"og.Mobile Vikings",
+		"ggl.Google Play Store",
+		"og.Google",
+		"ios.My Viking",
+		"ios.Viking App",
+		"ios.VikingFinder by Mobile Vikings",
+		"app.App Store",
+		"og.Apple"	
+	]},
 	{"name": "gps.Waze", "imports":[
 		"ggl.Google Adsense",
 		"ggl.Google Calendar",
@@ -9278,7 +9871,16 @@
 	]},
 	{"name": "gps.WhatsApp Wallpapers"},
 	{"name": "gps.Would You Rather"},
-	{"name": "gps.Wunderlist"},
+	{"name": "gps.Wunderlist", "imports":[
+		"ios.Wunderlist",
+		"osx.Wunderlist",
+		"app.Mac App Store",
+		"app.App Store",
+		"og.Apple",
+		"og.Wunderlist",
+		"ggl.Google Play Store",
+		"og.Google"
+	]},
 	{"name": "gps.Xbox 360 Smartglass"},
 	{"name": "gps.YouTube", "imports":[
 		"ggl.Google Adsense",
@@ -9436,6 +10038,10 @@
 	]},
 	{"name": "gps.Z Launcher Beta"},
 	{"name": "gps.ZArchiver"},
-	{"name": "gps.Zalando"},
+	{"name": "gps.Zalando", "imports":[
+		"og.Zalando",
+		"ggl.Google Play Store",
+		"og.Google"	
+	]},
 	{"name": "gps.Zynga Poker"}
 ]

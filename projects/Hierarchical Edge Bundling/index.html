@@ -15,6 +15,11 @@ body {
   fill: #000;
 }
 
+.email {
+  font-weight: regular;
+  font-size: 7px;
+}
+
 .link {
   stroke: #236030;
   stroke-opacity: .4;
@@ -27,7 +32,7 @@ body {
 .node--source,
 .node--target {
   font-weight: 700;
-  font-size: 5px;
+  font-size: 10px;
   fill: #fff;
 }
 
@@ -60,12 +65,12 @@ text {
 
 @font-face {
     font-family: Hanken;
-    src: url(font/HankenSans-Regular.otf);
+    src: url(../../assets/fonts/HankenSans-Regular.otf);
     font-weight: regular;
 }
 @font-face {
     font-family: Hanken;
-    src: url(font/HankenSans-Light.otf);
+    src: url(../../assets/fonts/HankenSans-Light.otf);
     font-weight: light;
 }
 
@@ -116,16 +121,22 @@ d3.json("HEB.json", function(error, classes) {
       .attr("class", "link")
       .attr("d", line);
 
-  node = node
-      .data(nodes.filter(function(n) { return !n.children; }))
-    .enter().append("text")
-      .attr("class", "node")
-      .attr("dy", ".31em")
-      .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + (d.y + 8) + ",0)" + (d.x < 180 ? "" : "rotate(180)"); })
-      .style("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
-      .text(function(d) { return d.key; })
-      .on("mouseover", mouseovered)
-      .on("mouseout", mouseouted);
+  node = node.data(nodes.filter(function(n) { return !n.children; }))
+           .enter()
+           .append("text")
+         .attr("class", function(d){
+          if (d.key === "e-mailaddress") {
+            return "node email"
+          } else {
+            return "node"
+          }
+         })
+         .attr("dy", ".31em")
+         .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + (d.y + 8) + ",0)" + (d.x < 180 ? "" : "rotate(180)"); })
+         .style("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
+         .text(function(d) { return d.key; })
+         .on("mouseover", mouseovered)
+         .on("mouseout", mouseouted);
 
       centerViewport();
 });
