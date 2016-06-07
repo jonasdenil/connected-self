@@ -6,6 +6,11 @@ body {
   background-color: #04171F;
 }
 
+svg{
+  margin: 0 auto;
+  display: block;
+}
+
 .node {
   font: 3px Hanken, sans-serif;
   font-weight: light;
@@ -108,7 +113,6 @@ var line = d3.svg.line.radial()
 var svg = d3.select("body").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
-    .attr("transform", "translate(" + windowWidth/2 + "," + windowHeight/2 + ")")
     .append("g")
     .attr("transform", "translate(" + radius + "," + radius + ")");
 
