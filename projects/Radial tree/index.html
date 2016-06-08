@@ -6,9 +6,31 @@ body {
 	background-color: #04171F;
 }
 
+.back-button svg{
+  stroke: #415057
+}
+
+.back-button svg:hover {
+  stroke: #808A8F;
+  -moz-transition: stroke 0.2s ease;
+  -webkit-transition: stroke 0.2s ease;
+  -ms-transition: stroke 0.2s ease;
+  transition: stroke 0.2s ease;
+}
+
+.back-button{
+  margin: -100px;
+  width: 20%;
+}  
+
+
+.back-button p{
+  color: #415057;
+}
+
 .node circle {
-  fill: #236030;
-  stroke: steelblue;
+  fill: #ccff00;
+  stroke: none;
   stroke-width: .5px;
 }
 
@@ -19,10 +41,15 @@ body {
 
 .link {
   fill: none;
-  stroke: #236030;
-  stroke-width: 1.5px;
+  stroke: #ccff00;
+  stroke-opacity: .4;
+  stroke-width: 1px;
 }
 
+.email {
+  font-weight: regular;
+  font-size: 20px;
+}
 
 text {
 	fill: #fff;
@@ -30,12 +57,12 @@ text {
 
 @font-face {
     font-family: Hanken;
-    src: url(font/HankenSans-Regular.otf);
+    src: url(../../assets/fonts/HankenSans-Regular.otf);
     font-weight: regular;
 }
 @font-face {
     font-family: Hanken;
-    src: url(font/HankenSans-Light.otf);
+    src: url(../../assets/fonts/HankenSans-Light.otf);
     font-weight: light;
 }
 
@@ -81,7 +108,7 @@ d3.json("radial.json", function(error, root) {
       .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
 
   node.append("circle")
-      .attr("r", 4.5);
+      .attr("r", 0);
 
   node.append("text")
       .attr("dy", ".31em")
@@ -94,5 +121,25 @@ d3.json("radial.json", function(error, root) {
 d3.select(self.frameElement).style("height", diameter - 150 + "px");
 
 </script>
+<div class="back-button">
+  
+  <a href="http://jonasdenil.github.io/connected-self/" title="Take me back!">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"    x="0px" y="0px"
+       width="46.167px" height="43.833px" viewBox="0 0 46.167 43.833" enable-background="new 0 0    46.167 43.833" xml:space="preserve">
+      <g id="Layer_2">
+      </g>
+      <g id="Layer_1">
+      <g>
+        
+          <line fill="none" stroke-width="2" stroke-linecap="round" stroke-miterlimit=   "10" x1="25.557" y1="13.333" x2="16.966" y2="21.924"/>
+        
+          <line fill="none" stroke-width="2" stroke-linecap="round" stroke-miterlimit=   "10" x1="16.966" y1="21.924" x2="25.492" y2="30.45"/>
+      </g>
+      <circle fill="none" stroke-width="2" stroke-miterlimit="10" cx="23.261" cy="21.892" r="17.239"/>
+    </g>
+    
+    </svg>
+  </a>
+</div>
 
 </body>

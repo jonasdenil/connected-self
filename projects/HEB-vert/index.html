@@ -59,7 +59,7 @@ var line = d3.svg.line()
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-  .append("g")
+    .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.json("../Hierarchical%20Edge%20Bundling/HEB.json", function(error, classes) {
@@ -70,16 +70,16 @@ d3.json("../Hierarchical%20Edge%20Bundling/HEB.json", function(error, classes) {
 
   svg.selectAll(".link")
       .data(bundle(links))
-    .enter().append("path")
+      .enter().append("path")
       .attr("class", "link")
       .attr("d", line);
 
   svg.selectAll(".node")
       .data(nodes.filter(function(n) { return !n.children; }))
-    .enter().append("g")
+      .enter().append("g")
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
-    .append("text")
+      .append("text")
       .attr("dx", 8)
       .attr("dy", ".31em")
       .text(function(d) { return d.key; });
