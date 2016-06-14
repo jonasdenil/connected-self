@@ -3,7 +3,7 @@
 <style>
 
 body {
-  background-color: #04171F;
+  background-color: #020e13;
 }
 
 text {
@@ -11,13 +11,13 @@ text {
 }
 
 .node {
-  font: 5px Hanken, sans-serif;
+  font: 8px Hanken, sans-serif;
   font-weight: light;
   font-variant: caps;
 }
 
 .link {
-  stroke: #ccff00;
+  stroke: #e4ff00;
   stroke-opacity: .2; /*normaal .4 */
   stroke-width: 1px;
   fill: none;
@@ -40,8 +40,8 @@ text {
 <script>
 
 var margin = {top: 10, right: 140, bottom: 10, left: -400},
-    width = 1600 - margin.left - margin.right,
-    height = 6000 - margin.top - margin.bottom;
+    width = 2500 - margin.left - margin.right,
+    height = 9600 - margin.top - margin.bottom;
 
 var cluster = d3.layout.cluster()
     .size([height, width])
